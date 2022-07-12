@@ -1,3 +1,11 @@
+'''
+
+This file combines connect4.py and connect4comp.py so the game can
+easily be sent to Mac users over email, and for ease of running through
+terminal.
+
+'''
+
 from os import system
 
 class chararray:

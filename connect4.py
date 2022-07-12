@@ -1,3 +1,15 @@
+'''
+
+Welcome to my terminal-based Connect-4 game for MacOS. The goal of this
+project is to make Connect-4 with no external modules,so users can run 
+in terminal without the need to install packages.
+
+I am now using it as a baseline project for future work, including:
+
+1. speling erorr
+
+'''
+
 from connect4comp import computers_choice, Board
 from os import system
 
