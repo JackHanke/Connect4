@@ -181,6 +181,7 @@ class Node:
             self.children = children
         self.move_container = move_container
     
+#game tree class
 class Tree():
     def __init__(self,root_node_obj=None):
         #if no node is given, it is the node with empty board
@@ -205,7 +206,6 @@ class Tree():
                 return ''
         
         return print_node(self.root_node)
-
 
     #max depth int >= 1
     def make_tree(self,max_depth,turn,root_node=None):
