@@ -1,3 +1,10 @@
+'''
+
+This file holds the minimax algorithm for the 1 player version
+of the game, along with the Board class.
+
+'''
+
 #numpy-like chararray class for board funcitonality
 class chararray:
     def __init__(self,tuple,state=None):
@@ -78,6 +85,7 @@ def win_condition(i,j,board, current_player):
 
     return False
 
+#gameboard
 class Board:
     def __init__(self, board_height=6, board_width=7, board_state=None):
         if board_state is None:
