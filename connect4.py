@@ -6,7 +6,7 @@ in terminal without the need to install packages.
 
 I am now using it as a baseline project for future work, including:
 
-1. speling erorr
+1. spelling error
 
 '''
 
